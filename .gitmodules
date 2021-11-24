@@ -1,0 +1,15 @@
+[submodule ".nano"]
+	path = .nano
+	url = https://github.com/scopatz/nanorc
+[submodule "nano-tiprogram"]
+	path = nano-tiprogram
+	url = https://github.com/Yash-Singh1/nano-tiprogram
+[submodule "nano-mermaid"]
+	path = nano-mermaid
+	url = https://github.com/Yash-Singh1/nano-mermaid
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "better-git-diff"]
+	path = better-git-diff
+	url = https://github.com/yash-Singh1/better-git-diff
