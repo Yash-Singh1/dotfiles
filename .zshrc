@@ -83,8 +83,8 @@ COMPLETION_WAITING_DOTS="true"
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize history safe-paste command-not-found coffee heroku npm nvm node vscode zsh-autosuggestions zsh-syntax-highlighting)
+# Add wisely, as too many plugins slow down shell startup. <-- not with powerlevel10k!
+plugins=(git colorize history safe-paste command-not-found coffee heroku npm yarn nvm node vscode zsh-autosuggestions zsh-syntax-highlighting)
 
 # Autosuggestion configuration
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
@@ -193,6 +193,7 @@ export PATH="$HOME/gems/bin:$PATH"
 
 export EDITOR="code"
 
+# Setup Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
