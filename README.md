@@ -29,3 +29,9 @@ These are my dotfiles.
 - `.vimrc` (Contains setup configuration for `vim`)
 - `.zshrc` (Startup script for `zsh`, with plugin, theme, alias, `PATH` loading, etc. setup)
 - `gterminal.preferences` (`dconf` dump of GNOME terminal preferences)
+- `gterminal.preferences.sh` (Installation script for `gterminal.preferences`)
+
+## Installation
+
+Everything in the repository can be copied into the `$HOME` or `~/` directory except
+for the `gterminal.preferences` which will have to be loaded (see [`gterminal.preferences.sh`](./gterminal.preferences.sh)). For the `zsh` custom plugins/theme, you will have to [install them seperately](#zsh-custom).
