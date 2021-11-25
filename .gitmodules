@@ -13,3 +13,102 @@
 [submodule "better-git-diff"]
 	path = better-git-diff
 	url = https://github.com/yash-Singh1/better-git-diff
+[submodule ".vscode/extensions/alan.stylus-0.0.4"]
+	path = .vscode/extensions/alan.stylus-0.0.4
+	url = https://github.com/AlanCezarAraujo/vs-code-stylus.git
+[submodule ".vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0"]
+	path = .vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
+	url = https://github.com/Microsoft/vscode-jupyter-keymap
+[submodule ".vscode/extensions/silvenon.mdx-0.1.0"]
+	path = .vscode/extensions/silvenon.mdx-0.1.0
+	url = https://github.com/silvenon/vscode-mdx.git
+[submodule ".vscode/extensions/csstools.postcss-1.0.9"]
+	path = .vscode/extensions/csstools.postcss-1.0.9
+	url = https://github.com/csstools/postcss-language.git
+[submodule ".vscode/extensions/ban.troff-1.0.22"]
+	path = .vscode/extensions/ban.troff-1.0.22
+	url = https://github.com/bartosz-antosik/vscode-troff.git
+[submodule ".vscode/extensions/davidanson.vscode-markdownlint-0.45.0"]
+	path = .vscode/extensions/davidanson.vscode-markdownlint-0.45.0
+	url = https://github.com/DavidAnson/vscode-markdownlint.git
+[submodule ".vscode/extensions/vaibhavvishal.web-extension-0.1.0"]
+	path = .vscode/extensions/vaibhavvishal.web-extension-0.1.0
+	url = https://github.com/vaibhavhrt/web-extension
+[submodule ".vscode/extensions/eg2.vscode-npm-script-0.3.23"]
+	path = .vscode/extensions/eg2.vscode-npm-script-0.3.23
+	url = https://github.com/Microsoft/vscode-npm-scripts.git
+[submodule ".vscode/extensions/tht13.html-preview-vscode-0.2.5"]
+	path = .vscode/extensions/tht13.html-preview-vscode-0.2.5
+	url = https://github.com/tht13/html-preview-vscode
+[submodule ".vscode/extensions/ecmel.vscode-html-css-1.10.2"]
+	path = .vscode/extensions/ecmel.vscode-html-css-1.10.2
+	url = https://github.com/ecmel/vscode-html-css.git
+[submodule ".vscode/extensions/formulahendry.auto-rename-tag-0.1.9"]
+	path = .vscode/extensions/formulahendry.auto-rename-tag-0.1.9
+	url = https://github.com/formulahendry/vscode-auto-rename-tag.git
+[submodule ".vscode/extensions/redhat.vscode-commons-0.0.6"]
+	path = .vscode/extensions/redhat.vscode-commons-0.0.6
+	url = https://github.com/redhat-developer/vscode-commons/
+[submodule ".vscode/extensions/freecodecamp.freecodecamp-dark-vscode-theme-0.1.0"]
+	path = .vscode/extensions/freecodecamp.freecodecamp-dark-vscode-theme-0.1.0
+	url = https://github.com/freeCodeCamp/freecodecamp-dark-vscode-theme
+[submodule ".vscode/extensions/webben.browserslist-1.1.0"]
+	path = .vscode/extensions/webben.browserslist-1.1.0
+	url = https://github.com/wspwebben/browserslist-highlight.git
+[submodule ".vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3"]
+	path = .vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3
+	url = https://github.com/Microsoft/vscode-notebook-renderers
+[submodule ".vscode/extensions/stylelint.vscode-stylelint-1.2.1"]
+	path = .vscode/extensions/stylelint.vscode-stylelint-1.2.1
+	url = https://github.com/stylelint/vscode-stylelint.git
+[submodule ".vscode/extensions/github.remotehub-0.18.0"]
+	path = .vscode/extensions/github.remotehub-0.18.0
+	url = https://github.com/microsoft/vscode-remote-repositories-github.git
+[submodule ".vscode/extensions/esbenp.prettier-vscode-9.0.0"]
+	path = .vscode/extensions/esbenp.prettier-vscode-9.0.0
+	url = https://github.com/prettier/prettier-vscode.git
+[submodule ".vscode/extensions/xyc.vscode-mdx-preview-0.3.0"]
+	path = .vscode/extensions/xyc.vscode-mdx-preview-0.3.0
+	url = https://github.com/xyc/vscode-mdx-preview
+[submodule ".vscode/extensions/svelte.svelte-vscode-105.5.3"]
+	path = .vscode/extensions/svelte.svelte-vscode-105.5.3
+	url = https://github.com/sveltejs/language-tools.git
+[submodule ".vscode/extensions/foxundermoon.shell-format-7.2.2"]
+	path = .vscode/extensions/foxundermoon.shell-format-7.2.2
+	url = https://github.com/foxundermoon/vs-shell-format.git
+[submodule ".vscode/extensions/dbaeumer.vscode-eslint-2.2.2"]
+	path = .vscode/extensions/dbaeumer.vscode-eslint-2.2.2
+	url = https://github.com/Microsoft/vscode-eslint.git
+[submodule ".vscode/extensions/mhutchie.git-graph-1.30.0"]
+	path = .vscode/extensions/mhutchie.git-graph-1.30.0
+	url = https://github.com/mhutchie/vscode-git-graph.git
+[submodule ".vscode/extensions/octref.vetur-0.35.0"]
+	path = .vscode/extensions/octref.vetur-0.35.0
+	url = https://github.com/vuejs/vetur.git
+[submodule ".vscode/extensions/bradlc.vscode-tailwindcss-0.7.2"]
+	path = .vscode/extensions/bradlc.vscode-tailwindcss-0.7.2
+	url = https://github.com/tailwindlabs/tailwindcss-intellisense.git
+[submodule ".vscode/extensions/ms-python.vscode-pylance-2021.11.2"]
+	path = .vscode/extensions/ms-python.vscode-pylance-2021.11.2
+	url = https://github.com/microsoft/pylance-release
+[submodule ".vscode/extensions/redhat.vscode-xml-0.18.1"]
+	path = .vscode/extensions/redhat.vscode-xml-0.18.1
+	url = https://github.com/redhat-developer/vscode-xml
+[submodule ".vscode/extensions/redhat.vscode-yaml-1.2.1"]
+	path = .vscode/extensions/redhat.vscode-yaml-1.2.1
+	url = https://github.com/redhat-developer/vscode-yaml
+[submodule ".vscode/extensions/orta.vscode-jest-4.2.1"]
+	path = .vscode/extensions/orta.vscode-jest-4.2.1
+	url = https://github.com/jest-community/vscode-jest
+[submodule ".vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5090"]
+	path = .vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5090
+	url = https://github.com/MicrosoftDocs/live-share
+[submodule ".vscode/extensions/eamodio.gitlens-11.7.0"]
+	path = .vscode/extensions/eamodio.gitlens-11.7.0
+	url = https://github.com/eamodio/vscode-gitlens.git
+[submodule ".vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599"]
+	path = .vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599
+	url = https://github.com/Microsoft/vscode-jupyter
+[submodule ".vscode/extensions/ms-python.python-2021.11.1422169775"]
+	path = .vscode/extensions/ms-python.python-2021.11.1422169775
+	url = https://github.com/Microsoft/vscode-python
