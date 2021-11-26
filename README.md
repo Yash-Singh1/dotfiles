@@ -13,6 +13,7 @@ These are my dotfiles.
 - `zsh-autosuggestions` ([Install](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-autosuggestions))
 - `zsh-syntax-highlighting` ([Install](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-syntax-highlighting))
 - `powerlevel10k` ([Install](https://github.com/romkatv/powerlevel10k#oh-my-zsh) | [Repo](https://github.com/romkatv/powerlevel10k))
+- `zsh-completions` ([Install](https://github.com/zsh-users/zsh-completions#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-completions))
 
 ## File Structure
 
