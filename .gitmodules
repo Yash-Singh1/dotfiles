@@ -142,3 +142,36 @@
 [submodule ".vscode/extensions/ms-azuretools.vscode-docker-1.18.0"]
 	path = .vscode/extensions/ms-azuretools.vscode-docker-1.18.0
 	url = https://github.com/microsoft/vscode-docker
+[submodule ".vscode/extensions/geekofer.storybook-react-snippets-0.0.2"]
+	path = .vscode/extensions/geekofer.storybook-react-snippets-0.0.2
+	url = https://github.com/geekofer/storybook-react-snippets
+[submodule ".vscode/extensions/ms-toolsai.jupyter-renderers-1.0.4"]
+	path = .vscode/extensions/ms-toolsai.jupyter-renderers-1.0.4
+	url = https://github.com/Microsoft/vscode-notebook-renderers
+[submodule ".vscode/extensions/github.remotehub-0.19.0"]
+	path = .vscode/extensions/github.remotehub-0.19.0
+	url = https://github.com/microsoft/vscode-remote-repositories-github.git
+[submodule ".vscode/extensions/svelte.svelte-vscode-105.7.0"]
+	path = .vscode/extensions/svelte.svelte-vscode-105.7.0
+	url = https://github.com/sveltejs/language-tools.git
+[submodule ".vscode/extensions/ms-python.vscode-pylance-2021.12.1"]
+	path = .vscode/extensions/ms-python.vscode-pylance-2021.12.1
+	url = https://github.com/microsoft/pylance-release
+[submodule ".vscode/extensions/bradlc.vscode-tailwindcss-0.7.4"]
+	path = .vscode/extensions/bradlc.vscode-tailwindcss-0.7.4
+	url = https://github.com/tailwindlabs/tailwindcss-intellisense.git
+[submodule ".vscode/extensions/redhat.vscode-yaml-1.2.2"]
+	path = .vscode/extensions/redhat.vscode-yaml-1.2.2
+	url = https://github.com/redhat-developer/vscode-yaml
+[submodule ".vscode/extensions/pkief.material-icon-theme-4.11.0"]
+	path = .vscode/extensions/pkief.material-icon-theme-4.11.0
+	url = https://github.com/PKief/vscode-material-icon-theme.git
+[submodule ".vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5196"]
+	path = .vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5196
+	url = https://github.com/MicrosoftDocs/live-share
+[submodule ".vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889"]
+	path = .vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+	url = https://github.com/Microsoft/vscode-jupyter
+[submodule ".vscode/extensions/ms-python.python-2021.12.1559732655"]
+	path = .vscode/extensions/ms-python.python-2021.12.1559732655
+	url = https://github.com/Microsoft/vscode-python
