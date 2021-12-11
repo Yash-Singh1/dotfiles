@@ -35,3 +35,5 @@ These are my dotfiles.
 
 Everything in the repository can be copied into the `$HOME` or `~/` directory except
 for the `gterminal.preferences` which will have to be loaded (see [`gterminal.preferences.sh`](./gterminal.preferences.sh)). For the `zsh` custom plugins/theme, you will have to [install them seperately](#zsh-custom).
+See [this link](https://khalidabuhakmeh.com/ohmyzsh-github-cli-command-completion) for installing the `gh`
+command line autocompletion.

@@ -47,5 +47,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "redhat.telemetry.enabled": true,
-  "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace"
+  "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "workbench.iconTheme": "material-icon-theme"
 }
