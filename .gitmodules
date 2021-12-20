@@ -175,3 +175,21 @@
 [submodule ".vscode/extensions/ms-python.python-2021.12.1559732655"]
 	path = .vscode/extensions/ms-python.python-2021.12.1559732655
 	url = https://github.com/Microsoft/vscode-python
+[submodule ".vscode/extensions/github.remotehub-0.20.0"]
+	path = .vscode/extensions/github.remotehub-0.20.0
+	url = https://github.com/microsoft/vscode-remote-repositories-github.git
+[submodule ".vscode/extensions/svelte.svelte-vscode-105.8.0"]
+	path = .vscode/extensions/svelte.svelte-vscode-105.8.0
+	url = https://github.com/sveltejs/language-tools.git
+[submodule ".vscode/extensions/ms-python.vscode-pylance-2021.12.2"]
+	path = .vscode/extensions/ms-python.vscode-pylance-2021.12.2
+	url = https://github.com/microsoft/pylance-release
+[submodule ".vscode/extensions/redhat.vscode-xml-0.18.2"]
+	path = .vscode/extensions/redhat.vscode-xml-0.18.2
+	url = https://github.com/redhat-developer/vscode-xml
+[submodule ".vscode/extensions/ms-vscode.cpptools-1.7.1"]
+	path = .vscode/extensions/ms-vscode.cpptools-1.7.1
+	url = https://github.com/Microsoft/vscode-cpptools.git
+[submodule ".vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5200"]
+	path = .vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5200
+	url = https://github.com/MicrosoftDocs/live-share
