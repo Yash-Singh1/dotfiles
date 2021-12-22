@@ -17,11 +17,31 @@ function resolveRepo(repo) {
   }
 }
 
-fs.rm('.vscode', { recursive: true, force: true }, () => {
-  fs.mkdirSync('.vscode');
-  fs.mkdirSync('.vscode/extensions');
+fs.readdirSync('.vscode/extensions').forEach((dir) => {
+  if (fs.existsSync(`${process.env.HOME}/.vscode/extensions/${dir}`)) return;
 
-  fs.readdirSync(process.env.HOME + '/.vscode/extensions').forEach((dir) => {
+  fs.writeFileSync(
+    '.gitmodules',
+    fs
+      .readFileSync('.gitmodules', 'utf-8')
+      .replace(
+        `
+[submodule ".vscode/extensions/${dir}"]
+\tpath = .vscode/extensions/${dir}
+\turl`,
+        '\n'
+      )
+      .replace(/^ = .*?$/m, '')
+      .replace('\n\n', '\n')
+  );
+  fs.rm(`.vscode/extensions/${dir}`, { force: true, recursive: true }, () => {});
+});
+
+fs.readdirSync(process.env.HOME + '/.vscode/extensions')
+  .filter((object) => object !== '.obsolete')
+  .forEach((dir) => {
+    if (!fs.existsSync(`${process.env.HOME}/.vscode/extensions/${dir}`)) return;
+
     const packageJSON = require(process.env.HOME + '/.vscode/extensions/' + dir + '/package.json');
 
     if (packageJSON.repository) {
@@ -42,4 +62,3 @@ fs.rm('.vscode', { recursive: true, force: true }, () => {
       );
     }
   });
-});

@@ -48,5 +48,11 @@
   },
   "redhat.telemetry.enabled": true,
   "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.userWords": [
+    "vsixmanifest"
+  ],
+  "cSpell.ignoreRegExpList": [
+    "string"
+  ]
 }
