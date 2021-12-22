@@ -151,9 +151,6 @@
 [submodule ".vscode/extensions/antfu.auto-npx-0.0.2"]
 	path = .vscode/extensions/antfu.auto-npx-0.0.2
 	url = https://github.com/antfu/vscode-auto-npx
-[submodule ".vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.2"]
-	path = .vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.2
-	url = https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
 [submodule ".vscode/extensions/aaron-bond.better-comments-2.1.0"]
 	path = .vscode/extensions/aaron-bond.better-comments-2.1.0
 	url = https://github.com/aaron-bond/better-comments
@@ -196,3 +193,6 @@
 [submodule ".vscode/extensions/ms-vscode-remote.remote-containers-0.209.6"]
 	path = .vscode/extensions/ms-vscode-remote.remote-containers-0.209.6
 	url = https://github.com/Microsoft/vscode-remote-release.git
+[submodule ".vscode/extensions/donjayamanne.githistory-0.6.19"]
+	path = .vscode/extensions/donjayamanne.githistory-0.6.19
+	url = https://github.com/DonJayamanne/gitHistoryVSCode

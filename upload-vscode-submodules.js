@@ -40,7 +40,7 @@ fs.readdirSync('.vscode/extensions').forEach((dir) => {
 fs.readdirSync(process.env.HOME + '/.vscode/extensions')
   .filter((object) => object !== '.obsolete')
   .forEach((dir) => {
-    if (!fs.existsSync(`${process.env.HOME}/.vscode/extensions/${dir}`)) return;
+    if (fs.existsSync(`.vscode/extensions/${dir}`)) return;
 
     const packageJSON = require(process.env.HOME + '/.vscode/extensions/' + dir + '/package.json');
 
