@@ -90,7 +90,7 @@ plugins=(git colorize history safe-paste command-not-found coffee heroku npm yar
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#f54257,bold"
 
-# Interactive CD configuration
+# Interactive cd configuration
 export FZF_DEFAULT_OPTS="--cycle --border"
 
 source $ZSH/oh-my-zsh.sh
@@ -136,22 +136,23 @@ fi
 
 # History file configuration
 export HISTSIZE=1000
-export HISTFILESIZE=2000
-
-pretty_json() {
-  echo $@ | python -m json.tool
-}
+# export HISTFILESIZE=2000 # HISTFILESIZE (bash) is SAVEHIST in zsh
+export SAVEHIST=2000
 
 # Aliases for personal use
 alias uncd="cd $OLDPWD"
 alias total="bash ~/better-git-diff/total.sh"
 alias tellme='bash ~/tellme.sh'
+alias pcat='/usr/bin/cat'
 alias cat='ccat'
 
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Alias for removing last commit in git
+alias remove-last-commit='git reset --hard HEAD^'
 
 # Create an alias for sshtron to play it easily
 alias tron='ssh sshtron.zachlatta.com'
@@ -163,6 +164,10 @@ alias notepad++='notepad-plus-plus'
 alias python='python3.8'
 alias py='python3.8'
 alias pip='pip3'
+
+pretty_json() {
+  echo $@ | python -m json.tool
+}
 
 # Add in an alias to easily open up Postman
 alias postman='/snap/bin/postman'
@@ -206,3 +211,9 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Disable husky due to problems in zsh (https://github.com/typicode/husky/issues/953)
 export HUSKY=0
+
+# Disable core dumps
+ulimit -c 0
+
+# Freeze terminal driver settings (prevents keyboard messing)
+ttyctl -f
