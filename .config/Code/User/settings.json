@@ -50,9 +50,27 @@
   "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "workbench.iconTheme": "material-icon-theme",
   "cSpell.userWords": [
-    "vsixmanifest"
+    "Adamiecki",
+    "Gantt",
+    "globby",
+    "graphtype",
+    "Kumiko",
+    "referrerpolicy",
+    "Udemy",
+    "USACO",
+    "userscript",
+    "Vercel",
+    "vsixmanifest",
+    "Yash",
+    "Yohoho"
   ],
   "cSpell.ignoreRegExpList": [
     "string"
-  ]
+  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/g++",
+  "C_Cpp.default.cppStandard": "c++17",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false
 }
