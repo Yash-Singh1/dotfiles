@@ -14,6 +14,7 @@ These are my dotfiles.
 - `zsh-syntax-highlighting` ([Install](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-syntax-highlighting))
 - `powerlevel10k` ([Install](https://github.com/romkatv/powerlevel10k#oh-my-zsh) | [Repo](https://github.com/romkatv/powerlevel10k))
 - `zsh-completions` ([Install](https://github.com/zsh-users/zsh-completions#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-completions))
+- `yeoman-zsh-plugin` ([Install](https://github.com/edouard-lopez/yeoman-zsh-plugin#oh-my-zsh) | [Repo](https://github.com/edouard-lopez/yeoman-zsh-plugin))
 
 ## File Structure
 
@@ -34,6 +35,6 @@ These are my dotfiles.
 ## Installation
 
 Everything in the repository can be copied into the `$HOME` or `~/` directory except
-for the `gterminal.preferences` which will have to be loaded (see [`gterminal.preferences.sh`](./gterminal.preferences.sh)). For the `zsh` custom plugins/theme, you will have to [install them seperately](#zsh-custom).
+for the `gterminal.preferences` which will have to be loaded (see [`gterminal.preferences.sh`](./gterminal.preferences.sh)). For the `zsh` custom plugins/theme, you will have to [install them separately](#zsh-custom).
 See [this link](https://khalidabuhakmeh.com/ohmyzsh-github-cli-command-completion) for installing the `gh`
 command line autocompletion.
