@@ -146,3 +146,6 @@ setopt auto_pushd
 setopt pushd_ignoredups
 setopt pushd_silent
 setopt interactive_comments
+
+# Set pager to less
+PAGER=less
