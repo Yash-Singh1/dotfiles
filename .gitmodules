@@ -175,3 +175,27 @@
 [submodule ".vscode/extensions/yash-singh.cshell-vscode-0.0.1"]
 	path = .vscode/extensions/yash-singh.cshell-vscode-0.0.1
 	url = https://github.com/Yash-Singh1/cshell-vscode.git
+[submodule ".vscode/extensions/ms-vscode.brackets-pack-0.1.1"]
+	path = .vscode/extensions/ms-vscode.brackets-pack-0.1.1
+	url = https://github.com/Microsoft/vscode-brackets-pack.git
+[submodule ".vscode/extensions/cruzelante098.jison-syntax-highlight-0.1.1"]
+	path = .vscode/extensions/cruzelante098.jison-syntax-highlight-0.1.1
+	url = https://github.com/cruzelante098/language-jison.git
+[submodule ".vscode/extensions/antfu.where-am-i-0.1.4"]
+	path = .vscode/extensions/antfu.where-am-i-0.1.4
+	url = https://github.com/antfu/vscode-where-am-i
+[submodule ".vscode/extensions/robole.markdown-snippets-0.7.4"]
+	path = .vscode/extensions/robole.markdown-snippets-0.7.4
+	url = https://github.com/robole/vscode-markdown-snippets
+[submodule ".vscode/extensions/benspaulding.procfile-1.1.7"]
+	path = .vscode/extensions/benspaulding.procfile-1.1.7
+	url = https://github.com/benspaulding/vscode-procfile.git
+[submodule ".vscode/extensions/pranaygp.vscode-css-peek-4.2.0"]
+	path = .vscode/extensions/pranaygp.vscode-css-peek-4.2.0
+	url = https://github.com/pranaygp/vscode-css-peek
+[submodule ".vscode/extensions/xyc.vscode-mdx-preview-0.3.3"]
+	path = .vscode/extensions/xyc.vscode-mdx-preview-0.3.3
+	url = https://github.com/xyc/vscode-mdx-preview
+[submodule ".vscode/extensions/ms-azuretools.vscode-docker-1.18.0"]
+	path = .vscode/extensions/ms-azuretools.vscode-docker-1.18.0
+	url = https://github.com/microsoft/vscode-docker
