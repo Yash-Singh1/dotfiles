@@ -81,5 +81,6 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "editor.unicodeHighlight.invisibleCharacters": false
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "css.lint.duplicateProperties": "warning"
 }
