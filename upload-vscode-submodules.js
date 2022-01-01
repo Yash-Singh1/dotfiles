@@ -12,6 +12,8 @@ function resolveRepo(repo) {
     return `https://gitlab.com/${repo.replace(/^gitlab:/, '')}.git`;
   } else if (repo.startsWith('bitbucket:')) {
     return `https://bitbucket.com/${repo.replace(/^bitbucket:/, '')}.git`;
+  } else if (repo.startsWith('git@github.com:')) {
+    return `https://github.com/${repo.slice('git@github.com:'.length)}`
   } else {
     return `https://github.com/${repo}.git`;
   }
@@ -45,12 +47,19 @@ fs.readdirSync(process.env.HOME + '/.vscode/extensions')
     const packageJSON = require(process.env.HOME + '/.vscode/extensions/' + dir + '/package.json');
 
     if (packageJSON.repository) {
-      exec(
+      let command =
         'git submodule add ' +
-          resolveRepo(typeof packageJSON.repository === 'string' ? packageJSON.repository : packageJSON.repository.url) +
-          ' .vscode/extensions/' +
-          dir
-      );
+        resolveRepo(typeof packageJSON.repository === 'string' ? packageJSON.repository : packageJSON.repository.url) +
+        ' .vscode/extensions/' +
+        dir;
+      exec(command, (error, stdout, stderr) => {
+        if (error) {
+          console.error(`exec error: ${error}`);
+          return;
+        }
+        console.log(`${command}: ${stdout}`);
+        console.error(`${command}: !ERR! ${stderr}`);
+      });
     } else {
       fs.mkdirSync('.vscode/extensions/' + dir);
       if (fs.existsSync(process.env.HOME + '/.vscode/extensions/' + dir + '/README.md')) {
