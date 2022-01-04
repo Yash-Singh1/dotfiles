@@ -1,3 +1,0 @@
-.vscode/extensions/*/**/*
-!.vscode/extensions/*/README.md
-!.vscode/extensions/*/.vsixmanifest
