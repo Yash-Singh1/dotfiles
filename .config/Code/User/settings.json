@@ -51,8 +51,11 @@
   "workbench.iconTheme": "material-icon-theme",
   "cSpell.userWords": [
     "Adamiecki",
+    "Arnav",
+    "atcoder",
     "Autoimports",
     "Codecov",
+    "Dhruva",
     "dotfile",
     "dotfiles",
     "esbuild",
@@ -60,11 +63,17 @@
     "globby",
     "graphtype",
     "gterminal",
+    "Hackerrank",
+    "Hackerranks",
     "Infographic",
+    "Kattis",
     "Kumiko",
     "markdownlint",
+    "npmrc",
+    "onhover",
     "outdir",
     "powerlevel",
+    "prettierrc",
     "referrerpolicy",
     "svgr",
     "Typer",
@@ -74,7 +83,9 @@
     "userscript",
     "vendoring",
     "Vercel",
+    "Vogt",
     "vsixmanifest",
+    "XKCD",
     "Yash",
     "Yohoho"
   ],
@@ -87,5 +98,6 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "css.lint.duplicateProperties": "warning"
+  "css.lint.duplicateProperties": "warning",
+  "leetcode.workspaceFolder": "/home/saiansh/.leetcode"
 }
