@@ -54,12 +54,14 @@
     "Arnav",
     "atcoder",
     "Autoimports",
+    "Catfishing",
     "Codecov",
     "Dhruva",
     "dotfile",
     "dotfiles",
     "esbuild",
     "Gantt",
+    "geeksforgeeks",
     "globby",
     "graphtype",
     "gterminal",
@@ -68,6 +70,7 @@
     "Infographic",
     "Kattis",
     "Kumiko",
+    "Leetcode",
     "markdownlint",
     "npmrc",
     "onhover",
@@ -99,5 +102,7 @@
   },
   "editor.unicodeHighlight.invisibleCharacters": false,
   "css.lint.duplicateProperties": "warning",
-  "leetcode.workspaceFolder": "/home/saiansh/.leetcode"
+  "leetcode.workspaceFolder": "/home/saiansh/.leetcode",
+  "leetcode.defaultLanguage": "cpp",
+  "editor.inlineSuggest.enabled": true
 }

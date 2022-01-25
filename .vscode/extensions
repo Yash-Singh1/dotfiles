@@ -21,6 +21,7 @@ formulahendry.auto-rename-tag
 foxundermoon.shell-format
 freeCodeCamp.freecodecamp-dark-vscode-theme
 geekofer.storybook-react-snippets
+GitHub.copilot
 GitHub.remotehub
 jeff-hykin.better-cpp-syntax
 LeetCode.vscode-leetcode
@@ -59,5 +60,6 @@ tht13.html-preview-vscode
 twxs.cmake
 VaibhavVishal.web-extension
 webben.browserslist
+wooodhead.vscode-wrap-console-log-simple
 xyc.vscode-mdx-preview
 yash-singh.cshell-vscode
