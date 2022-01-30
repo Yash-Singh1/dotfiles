@@ -104,5 +104,6 @@
   "css.lint.duplicateProperties": "warning",
   "leetcode.workspaceFolder": "/home/saiansh/.leetcode",
   "leetcode.defaultLanguage": "cpp",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first"
 }

@@ -24,10 +24,15 @@ geekofer.storybook-react-snippets
 GitHub.copilot
 GitHub.remotehub
 jeff-hykin.better-cpp-syntax
+jock.svg
 LeetCode.vscode-leetcode
+me-dutour-mathieu.vscode-github-actions
+mechatroner.rainbow-csv
 mhutchie.git-graph
 mikestead.dotenv
 ms-azuretools.vscode-docker
+ms-devlabs.extension-manifest-editor
+ms-dotnettools.csharp
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -57,6 +62,7 @@ streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
 svelte.svelte-vscode
 tht13.html-preview-vscode
+timonwong.shellcheck
 twxs.cmake
 VaibhavVishal.web-extension
 webben.browserslist
