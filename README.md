@@ -53,6 +53,7 @@ These are my dotfiles.
 - `powerlevel10k` ([Install](https://github.com/romkatv/powerlevel10k#oh-my-zsh) | [Repo](https://github.com/romkatv/powerlevel10k))
 - `zsh-completions` ([Install](https://github.com/zsh-users/zsh-completions#oh-my-zsh) | [Repo](https://github.com/zsh-users/zsh-completions))
 - `yeoman-zsh-plugin` ([Install](https://github.com/edouard-lopez/yeoman-zsh-plugin#oh-my-zsh) | [Repo](https://github.com/edouard-lopez/yeoman-zsh-plugin))
+- `zsh-plugin-speedtest` ([Install](https://github.com/Yash-Singh1/zsh-plugin-speedtest#oh-my-zsh) | [Repo](https://github.com/Yash-Singh1/zsh-plugin-speedtest))
 
 ## Nano Editor Extensions
 
