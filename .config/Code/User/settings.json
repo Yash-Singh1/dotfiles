@@ -54,8 +54,11 @@
     "Arnav",
     "atcoder",
     "Autoimports",
+    "bitburner",
     "Catfishing",
     "Codecov",
+    "compat",
+    "cshell",
     "Dhruva",
     "dotfile",
     "dotfiles",
@@ -72,13 +75,17 @@
     "Kumiko",
     "Leetcode",
     "markdownlint",
+    "metafile",
     "npmrc",
     "onhover",
     "outdir",
     "powerlevel",
     "prettierrc",
     "referrerpolicy",
+    "rehype",
     "svgr",
+    "timelimit",
+    "tprint",
     "Typer",
     "Udemy",
     "untranspose",
@@ -88,9 +95,12 @@
     "Vercel",
     "Vogt",
     "vsixmanifest",
+    "wordtune",
     "XKCD",
     "Yash",
-    "Yohoho"
+    "Yohoho",
+    "zgen",
+    "zplug"
   ],
   "cSpell.ignoreRegExpList": [
     "string"
@@ -105,5 +115,41 @@
   "leetcode.workspaceFolder": "/home/saiansh/.leetcode",
   "leetcode.defaultLanguage": "cpp",
   "editor.inlineSuggest.enabled": true,
-  "editor.suggestSelection": "first"
+  "editor.suggestSelection": "first",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "shellcheck.ignorePatterns": {
+    "**/*.xonshrc": true,
+    "**/*.xsh": true,
+    "**/*.zsh": true,
+    "**/*.zshrc": true,
+    "**/zshrc": true,
+    "**/*.zprofile": true,
+    "**/zprofile": true,
+    "**/*.zlogin": true,
+    "**/zlogin": true,
+    "**/*.zlogout": true,
+    "**/zlogout": true,
+    "**/*.zshenv": true,
+    "**/zshenv": true,
+    "**/*.zsh-theme": true,
+    "**/*.csh": "true"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "codeQL.telemetry.enableTelemetry": true
 }
