@@ -2,6 +2,7 @@ aaron-bond.better-comments
 Alan.stylus
 analytic-signal.preview-mp4
 analytic-signal.preview-tiff
+antcap96.xresources
 antfu.auto-npx
 antfu.where-am-i
 ban.troff
@@ -28,7 +29,6 @@ geekofer.storybook-react-snippets
 GitHub.copilot
 GitHub.remotehub
 GitHub.vscode-codeql
-gitkraken.gitkraken-authentication
 hbenl.vscode-test-explorer
 jeff-hykin.better-cpp-syntax
 jock.svg
@@ -68,6 +68,7 @@ redhat.vscode-yaml
 ritwickdey.LiveServer
 robole.markdown-snippets
 silvenon.mdx
+slevesque.vscode-zipexplorer
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
 svelte.svelte-vscode
