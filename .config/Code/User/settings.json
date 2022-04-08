@@ -9,7 +9,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Monokai Dimmed",
   "python.pythonPath": "/usr/bin/python3",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,6 +70,7 @@
     "gterminal",
     "Hackerrank",
     "Hackerranks",
+    "hljs",
     "Infographic",
     "Kattis",
     "Kumiko",
@@ -85,8 +85,10 @@
     "prettierrc",
     "referrerpolicy",
     "rehype",
+    "Replit",
     "Saiansh",
     "svgr",
+    "teamscode",
     "timelimit",
     "tprint",
     "Typer",
@@ -99,6 +101,7 @@
     "Vogt",
     "vsixmanifest",
     "wordtune",
+    "xclick",
     "XKCD",
     "Yash",
     "Yohoho",
@@ -154,5 +157,11 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "codeQL.telemetry.enableTelemetry": true
+  "codeQL.telemetry.enableTelemetry": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "where-am-i.colorful": false,
+  "where-am-i.textTransfrom": "none"
 }
