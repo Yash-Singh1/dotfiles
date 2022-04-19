@@ -1,0 +1,63 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+i",
+    "command": "emojisense.quickEmojitext",
+    "when": "editorReadonly\t&& !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-emojisense.quickEmojitext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "emojisense.quickEmoji",
+    "when": "editorReadonly && !editorReadonly"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-emojisense.quickEmoji",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+i",
+    "command": "emojisense.quickEmojitextTerminal",
+    "when": "editorReadonly && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+i",
+    "command": "-emojisense.quickEmojitextTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "emojisense.quickEmojiTerminal",
+    "when": "editorReadonly && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "-emojisense.quickEmojiTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]

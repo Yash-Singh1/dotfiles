@@ -30,6 +30,9 @@ These are my dotfiles.
 2. VSCode Configuration and Extensions
    To install the VSCode Configuration, copy the configuration from `.config/Code/User/settings.json`
    and paste it into the JSON for your VSCode configuration.
+   To install the extensions run `install-extensions.sh`.
+   You can also copy and paste the keybindings from `.config/Code/User/keybindings.json`, but it may
+   cause problems on different operating systems and keyboard layouts.
 3. Nano Editor Extensions
    See this [section](#nano-editor-extensions).
 4. Setup [`better-git-diff`](https://github.com/Yash-Singh1/better-git-diff) for Linux
