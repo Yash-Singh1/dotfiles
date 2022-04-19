@@ -10,7 +10,7 @@ These are my dotfiles.
 
 ## File Structure
 
-- `.config/` (Contains main configuration for Visual Studio Code)
+- `.config/` (Contains main configuration for apps)
 - `.vscode/` (Contains all extensions in a file)
 - `scripts/` (Contains bash scripts)
 - `.gitconfig` (Contains git configuration)
