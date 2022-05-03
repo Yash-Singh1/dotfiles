@@ -75,6 +75,7 @@
     "globby",
     "graphtype",
     "gterminal",
+    "hackathons",
     "Hackerrank",
     "Hackerranks",
     "hljs",
@@ -85,6 +86,7 @@
     "Kumiko",
     "Leetcode",
     "linenumber",
+    "LOLCODE",
     "markdownlint",
     "metafile",
     "microtask",
@@ -188,5 +190,6 @@
   "scss.lint.unknownAtRules": "ignore",
   "svelte.enable-ts-plugin": true,
   "jest.autoRun": "off",
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "workbench.startupEditor": "none"
 }
