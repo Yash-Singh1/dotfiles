@@ -49,6 +49,7 @@ These are my dotfiles.
    - `.npmrc` (also setup other information such as email and username)
 
 9. Install `pnpm` and setup completion: `pnpm install-completion zsh`
+10. Create a `.go` folder for golang
 
 ## ZSH Custom
 

@@ -126,6 +126,11 @@ export PATH="$HOME/gems/bin:$PATH"
 
 export EDITOR="code"
 
+# Setup golang
+export GOROOT=/usr/local/go
+export GOPATH=~/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
 # Setup Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
