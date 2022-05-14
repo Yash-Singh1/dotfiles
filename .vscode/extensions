@@ -31,10 +31,10 @@ geekofer.storybook-react-snippets
 GitHub.copilot
 GitHub.remotehub
 GitHub.vscode-codeql
+golang.go
 hbenl.vscode-test-explorer
 jeff-hykin.better-cpp-syntax
 jock.svg
-johnsoncodehk.volar
 kmoritak.vscode-mermaid-snippets
 LeetCode.vscode-leetcode
 me-dutour-mathieu.vscode-github-actions
@@ -61,6 +61,7 @@ ms-vscode.cpptools-themes
 ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
+Nuxt.mdc
 octref.vetur
 oderwat.indent-rainbow
 Orta.vscode-jest
@@ -85,6 +86,7 @@ Tobermory.es6-string-html
 twxs.cmake
 VaibhavVishal.web-extension
 vstirbu.vscode-mermaid-preview
+Vue.volar
 webben.browserslist
 wooodhead.vscode-wrap-console-log-simple
 xyc.vscode-mdx-preview
