@@ -111,9 +111,6 @@ alias devr='npm run dev'
 #   sleep 10; alert
 alias alert='notify-send --urgency=critical -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Chromium depot tools
-export PATH="/home/saiansh/depot_tools:${PATH}"
-
 # ZSH nvm plugin should automatically do this
 
 # export NVM_DIR="$HOME/.nvm"
