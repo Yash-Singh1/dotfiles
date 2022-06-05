@@ -209,5 +209,7 @@
   "svelte.enable-ts-plugin": true,
   "jest.autoRun": "off",
   "explorer.compactFolders": false,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "cph.general.defaultLanguage": "cpp",
+  "cph.language.cpp.Args": "-Wall -std=c++17 -fdiagnostics-color=always"
 }
