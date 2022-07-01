@@ -54,6 +54,7 @@
     "Arnav",
     "atcoder",
     "Autoimports",
+    "autonumber",
     "autosize",
     "AVIF",
     "bitburner",
@@ -80,6 +81,7 @@
     "geeksforgeeks",
     "globby",
     "graphtype",
+    "Greasemonkey",
     "gterminal",
     "hackathon",
     "hackathons",
@@ -88,6 +90,7 @@
     "hljs",
     "Infographic",
     "JSONL",
+    "jsonlfmt",
     "jsonlines",
     "Kahoot",
     "Kattis",
@@ -95,7 +98,9 @@
     "Leetcode",
     "linenumber",
     "LOLCODE",
+    "Lynbrook",
     "markdownlint",
+    "MATHCOUNTS",
     "metafile",
     "microtask",
     "minimist",
@@ -104,6 +109,7 @@
     "onhover",
     "outdir",
     "outro",
+    "pako",
     "parsel",
     "pnpm",
     "powerlevel",
@@ -123,10 +129,12 @@
     "shoutout",
     "Signup",
     "slidev",
+    "smoothscroll",
     "stemist",
     "subselectors",
     "svgr",
     "tailwindcss",
+    "Tampermonkey",
     "teamscode",
     "timelimit",
     "tprint",
@@ -134,11 +142,13 @@
     "Udemy",
     "unlocalized",
     "untranspose",
+    "USABO",
     "USACO",
     "userscript",
     "userscripts",
     "vendoring",
     "Vercel",
+    "Violentmonkey",
     "Vogt",
     "vsixmanifest",
     "Windi",
@@ -211,5 +221,25 @@
   "explorer.compactFolders": false,
   "workbench.startupEditor": "none",
   "cph.general.defaultLanguage": "cpp",
-  "cph.language.cpp.Args": "-Wall -std=c++17 -fdiagnostics-color=always"
+  "cph.language.cpp.Args": "-Wall -std=c++17 -fdiagnostics-color=always",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "cph.general.defaultLanguageTemplateFileLocation": "/home/saiansh/competitive-programming/snippets/starter.cpp",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["appsscript.json"],
+      "url": "http://json.schemastore.org/appsscript"
+    },
+    {
+      "fileMatch": [".clasp.json"],
+      "url": "http://json.schemastore.org/clasp"
+    }
+  ],
+  "files.associations": {
+    "*.gs": "javascript",
+    "*.ns": "javascript"
+  }
 }
