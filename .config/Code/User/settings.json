@@ -56,12 +56,14 @@
     "Autoimports",
     "autonumber",
     "autosize",
+    "Avenir",
     "AVIF",
     "bitburner",
     "cacheable",
     "callout",
     "camelcase",
     "Catfishing",
+    "classname",
     "Codecov",
     "combinators",
     "compat",
@@ -88,6 +90,7 @@
     "Hackerrank",
     "Hackerranks",
     "hljs",
+    "iife",
     "Infographic",
     "JSONL",
     "jsonlfmt",
@@ -241,5 +244,7 @@
   "files.associations": {
     "*.gs": "javascript",
     "*.ns": "javascript"
-  }
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "vite.autoStart": false
 }

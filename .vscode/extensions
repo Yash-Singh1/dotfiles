@@ -5,6 +5,8 @@ analytic-signal.preview-mp4
 analytic-signal.preview-tiff
 antcap96.xresources
 antfu.auto-npx
+antfu.browse-lite
+antfu.vite
 antfu.where-am-i
 ban.troff
 benspaulding.procfile
@@ -34,6 +36,7 @@ GitHub.remotehub
 GitHub.vscode-codeql
 golang.go
 hbenl.vscode-test-explorer
+hollowtree.vue-snippets
 jeff-hykin.better-cpp-syntax
 jock.svg
 kmoritak.vscode-mermaid-snippets
@@ -76,6 +79,7 @@ redhat.vscode-xml
 redhat.vscode-yaml
 ritwickdey.LiveServer
 robole.markdown-snippets
+sdras.vue-vscode-snippets
 silvenon.mdx
 slevesque.vscode-zipexplorer
 streetsidesoftware.code-spell-checker
