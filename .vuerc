@@ -1,0 +1,34 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "yarn",
+  "latestVersion": "5.0.8",
+  "lastChecked": 1658003493515,
+  "presets": {
+    "custom": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-typescript": {
+          "classComponent": false,
+          "useTsWithBabel": true
+        },
+        "@vue/cli-plugin-vuex": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "commit"
+          ]
+        },
+        "@vue/cli-plugin-unit-jest": {}
+      },
+      "vueVersion": "3"
+    },
+    "tutorial": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {}
+      },
+      "vueVersion": "3"
+    }
+  }
+}

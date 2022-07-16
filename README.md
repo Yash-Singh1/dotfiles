@@ -47,6 +47,9 @@ These are my dotfiles.
    - `.gitconfig` (also setup other information such as email and username)
    - `.nvmrc` (automatically installed version of `nodejs` by `nvm`)
    - `.npmrc` (also setup other information such as email and username)
+   - `.vuerc` (presets for creating Vue.js apps using the CLI)
+   - `.config/starship.toml` (configuration for `starship`)
+   - `.config/browsh` (configuration for `browsh`)
 
 9. Install `pnpm` and setup completion: `pnpm install-completion zsh`
 10. Create a `.go` folder for golang

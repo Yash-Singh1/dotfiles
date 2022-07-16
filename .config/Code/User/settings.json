@@ -249,7 +249,8 @@
   ],
   "files.associations": {
     "*.gs": "javascript",
-    "*.ns": "javascript"
+    "*.ns": "javascript",
+    ".vuerc": "json"
   },
   "npm.keybindingsChangedWarningShown": true,
   "vite.autoStart": false,
