@@ -55,6 +55,7 @@
     "atcoder",
     "Autoimports",
     "autonumber",
+    "autoprefixer",
     "autosize",
     "Avenir",
     "AVIF",
@@ -92,11 +93,13 @@
     "hljs",
     "iife",
     "Infographic",
+    "instanceof",
     "JSONL",
     "jsonlfmt",
     "jsonlines",
     "Kahoot",
     "Kattis",
+    "keymap",
     "Kumiko",
     "Leetcode",
     "linenumber",
@@ -115,6 +118,7 @@
     "pako",
     "parsel",
     "pnpm",
+    "Poki",
     "powerlevel",
     "prefetch",
     "preload",
@@ -158,6 +162,7 @@
     "wordtune",
     "xclick",
     "XKCD",
+    "Xmark",
     "Yash",
     "yashsingh",
     "Yohoho",
@@ -189,7 +194,8 @@
     "*": true,
     "yaml": false,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "cpp": false
   },
   "shellcheck.ignorePatterns": {
     "**/*.xonshrc": true,
@@ -246,5 +252,12 @@
     "*.ns": "javascript"
   },
   "npm.keybindingsChangedWarningShown": true,
-  "vite.autoStart": false
+  "vite.autoStart": false,
+  "cSpell.enableFiletypes": [
+    "browserslist",
+    "coffeescript",
+    "shellscript",
+    "svelte"
+  ],
+  "cSpell.language": "en,en-US"
 }
