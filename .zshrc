@@ -36,6 +36,9 @@ export FZF_DEFAULT_OPTS="--cycle --border"
 # Load Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
+# Bun Completions
+export fpath=($fpath $HOME/.bun)
+
 # Load completion
 autoload -U compinit && compinit
 
@@ -155,3 +158,21 @@ PAGER=less
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
+
+# pnpm
+export PNPM_HOME="/home/saiansh/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+# Bun
+export BUN_INSTALL="/home/saiansh/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Personal scripts
+export PATH="$HOME/scripts:$PATH"
+
+# Remove zsh extention
+for c in $(ls $HOME/scripts | grep .zsh$); do
+  if ! type ${c%.*} > /dev/null; then
+    alias ${c%.*}="$c"
+  fi
+done
