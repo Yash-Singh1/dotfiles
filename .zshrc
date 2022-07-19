@@ -24,7 +24,7 @@ CASE_SENSITIVE="true"
 DISABLE_MAGIC_FUNCTIONS="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git colorize history safe-paste command-not-found coffee heroku npm yarn nvm node vscode zsh-autosuggestions zsh-syntax-highlighting ubuntu debian heroku zsh-interactive-cd zsh-completions gh yeoman)
+plugins=(git colorize history safe-paste command-not-found coffee heroku npm yarn nvm node vscode zsh-autosuggestions zsh-syntax-highlighting ubuntu debian heroku zsh-interactive-cd zsh-completions gh yeoman zsh-plugin-speedtest docker docker-compose docker-machine)
 
 # Autosuggestion configuration
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)

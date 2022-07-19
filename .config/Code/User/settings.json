@@ -60,6 +60,7 @@
     "Avenir",
     "AVIF",
     "axios",
+    "Barebones",
     "bitburner",
     "cacheable",
     "callout",
@@ -101,6 +102,7 @@
     "Kahoot",
     "Kattis",
     "keymap",
+    "keyname",
     "Kumiko",
     "Leetcode",
     "linenumber",
@@ -118,6 +120,7 @@
     "outro",
     "pako",
     "parsel",
+    "pluggable",
     "pnpm",
     "Poki",
     "powerlevel",
@@ -138,12 +141,14 @@
     "Signup",
     "slidev",
     "smoothscroll",
+    "speedtest",
     "stemist",
     "subselectors",
     "svgr",
     "tailwindcss",
     "Tampermonkey",
     "teamscode",
+    "templating",
     "timelimit",
     "tprint",
     "Typer",
@@ -261,5 +266,8 @@
     "shellscript",
     "svelte"
   ],
-  "cSpell.language": "en,en-US"
+  "cSpell.language": "en,en-US",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  }
 }
