@@ -62,6 +62,7 @@
     "axios",
     "Barebones",
     "bitburner",
+    "Bulma",
     "cacheable",
     "callout",
     "camelcase",
@@ -113,6 +114,7 @@
     "metafile",
     "microtask",
     "minimist",
+    "Modeless",
     "nocompat",
     "npmrc",
     "onhover",
@@ -201,7 +203,7 @@
     "yaml": false,
     "plaintext": true,
     "markdown": true,
-    "cpp": false
+    "cpp": true
   },
   "shellcheck.ignorePatterns": {
     "**/*.xonshrc": true,
