@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 [ -d ~/.recovered/ ] || mkdir ~/.recovered/
 
 if [ $# == 0 ]
