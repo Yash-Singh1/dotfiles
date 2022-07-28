@@ -35,6 +35,7 @@ GitHub.copilot
 GitHub.remotehub
 GitHub.vscode-codeql
 golang.go
+GraphQL.vscode-graphql
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
 hollowtree.vue-snippets
@@ -46,6 +47,8 @@ me-dutour-mathieu.vscode-github-actions
 mechatroner.rainbow-csv
 mhutchie.git-graph
 mikestead.dotenv
+Miladfathy.scss-snippet
+mrmlnc.vscode-scss
 ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 ms-dotnettools.csharp
@@ -83,6 +86,7 @@ ritwickdey.LiveServer
 robole.markdown-snippets
 sdras.vue-vscode-snippets
 silvenon.mdx
+SimonSiefke.svg-preview
 slevesque.vscode-zipexplorer
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
@@ -95,6 +99,7 @@ twxs.cmake
 VaibhavVishal.web-extension
 vstirbu.vscode-mermaid-preview
 Vue.volar
+Vue.vscode-typescript-vue-plugin
 wayou.vscode-todo-highlight
 webben.browserslist
 wooodhead.vscode-wrap-console-log-simple
