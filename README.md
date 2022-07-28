@@ -50,9 +50,11 @@ These are my dotfiles.
    - `.vuerc` (presets for creating Vue.js apps using the CLI)
    - `.config/starship.toml` (configuration for `starship`)
    - `.config/browsh` (configuration for `browsh`)
+   - `.tmux.conf` (configuration for `tmux`)
 
 9. Install `pnpm` and setup completion: `pnpm install-completion zsh`
 10. Create a `.go` folder for golang
+11. Install [`alacritty`](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) and `tmux`
 
 ## ZSH Custom
 

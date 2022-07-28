@@ -178,3 +178,5 @@ for c in $(ls $HOME/scripts | grep .zsh$); do
 done
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+export TERM=xterm-256color
