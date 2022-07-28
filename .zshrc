@@ -176,3 +176,5 @@ for c in $(ls $HOME/scripts | grep .zsh$); do
     alias ${c%.*}="$c"
   fi
 done
+
+fpath+=${ZDOTDIR:-~}/.zsh_functions
