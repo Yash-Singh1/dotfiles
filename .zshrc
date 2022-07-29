@@ -180,3 +180,7 @@ done
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 export TERM=xterm-256color
+
+alias vscq="vsc &!"
+
+tmux set-option -g @dracula-cols $(tput cols)
