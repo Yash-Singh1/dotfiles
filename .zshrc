@@ -183,4 +183,6 @@ export TERM=xterm-256color
 
 alias vscq="vsc &!"
 
-tmux set-option -g @dracula-cols $(tput cols)
+if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
+  tmux set-option -g @dracula-cols $(tput cols)
+fi
