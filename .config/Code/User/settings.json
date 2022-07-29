@@ -119,6 +119,7 @@
     "minimist",
     "Modeless",
     "nocompat",
+    "noreply",
     "npmrc",
     "onhover",
     "outdir",
