@@ -4,6 +4,8 @@ if [ `echo $(ps -p $(ps -p $$ -o ppid=) o args=)` != "tmux" ]; then
   if [ "$answer" = "y" ]; then
     alacritty -e tmux &!
     exit
+  elif [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
+    tmux set-option -g @dracula-cols $(tput cols)
   fi
 fi
 
@@ -192,6 +194,5 @@ export TERM=xterm-256color
 
 alias vscq="vsc &!"
 
-if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
-  tmux set-option -g @dracula-cols $(tput cols)
-fi
+export DENO_INSTALL="/home/saiansh/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
