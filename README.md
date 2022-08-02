@@ -56,6 +56,7 @@ These are my dotfiles.
 9. Install `pnpm` and setup completion: `pnpm install-completion zsh`
 10. Create a `.go` folder for golang
 11. Install [`alacritty`](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) and `tmux`
+12. Install `bun` completions, `bun completions`
 
 ## ZSH Custom
 

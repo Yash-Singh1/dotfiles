@@ -198,3 +198,6 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
   tmux set-option -g @dracula-cols $(tput cols)
 fi
+
+# bun completions
+[ -s "/home/saiansh/.bun/_bun" ] && source "/home/saiansh/.bun/_bun"
