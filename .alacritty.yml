@@ -42,3 +42,8 @@ colors:
 mouse:
   double_click: { threshold: 500 }
   hide_when_typing: true
+
+shell:
+  program: /usr/bin/env
+  args:
+    - tmux
