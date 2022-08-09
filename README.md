@@ -59,7 +59,7 @@ These are my dotfiles.
 11. Install [`alacritty`](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) and `tmux`
 12. Install `bun` completions, `bun completions`
 13. Install `docker` and `docker-desktop`
-14. Install the [`Orchis-Dark-Compat`](https://github.com/vinceliuice/Orchis-theme) and [`Bibata-Classic`](https://github.com/ful1e5/Bibata_Cursor) themes for GTK
+14. Install the [`Orchis Solid Dark`](https://github.com/vinceliuice/Orchis-theme), [`Bibata Modern Classic`](https://github.com/ful1e5/Bibata_Cursor), and [`Vimix Dark`](https://github.com/vinceliuice/vimix-icon-theme) themes for GTK
 
 ## ZSH Custom
 
