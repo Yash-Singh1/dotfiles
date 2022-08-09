@@ -201,3 +201,8 @@ fi
 
 # bun completions
 [ -s "/home/saiansh/.bun/_bun" ] && source "/home/saiansh/.bun/_bun"
+
+# Docker
+export PATH=/home/saiansh/bin:$PATH
+# export DOCKER_HOST=unix:///run/user/1000/docker.sock
+export DOCKER_HOST=unix:///home/saiansh/.docker/desktop/docker.sock
