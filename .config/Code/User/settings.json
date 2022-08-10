@@ -231,7 +231,7 @@
     "**/*.zshenv": true,
     "**/zshenv": true,
     "**/*.zsh-theme": true,
-    "**/*.csh": "true"
+    "**/*.csh": true
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
