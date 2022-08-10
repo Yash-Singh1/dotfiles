@@ -6,6 +6,7 @@ analytic-signal.preview-tiff
 antcap96.xresources
 antfu.auto-npx
 antfu.browse-lite
+antfu.icons-carbon
 antfu.vite
 antfu.where-am-i
 ban.troff
@@ -36,6 +37,7 @@ GitHub.remotehub
 GitHub.vscode-codeql
 golang.go
 GraphQL.vscode-graphql
+GraphQL.vscode-graphql-syntax
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
 hollowtree.vue-snippets
@@ -70,6 +72,7 @@ ms-vscode.cpptools-themes
 ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
+nmsmith89.incrementor
 Nuxt.mdc
 octref.vetur
 oderwat.indent-rainbow
