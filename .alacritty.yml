@@ -8,7 +8,14 @@ font:
   normal:
     family: Fira Code Nerd Font
     style: Bold
-  size: 14.0
+  bold:
+    family: Fira Code Nerd Font
+    style: Bold
+  italic:
+    family: Fira Code Nerd Font
+  bold_italic:
+    family: Fira Code Nerd Font
+  size: 16.0
 
 colors:
   primary:

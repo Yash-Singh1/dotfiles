@@ -192,3 +192,6 @@ fi
 
 # bun completions
 [ -s "/home/saiansh/.bun/_bun" ] && source "/home/saiansh/.bun/_bun"
+
+# Prevent weird behavior in alacritty
+export WINIT_X11_SCALE_FACTOR="1.0"

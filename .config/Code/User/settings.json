@@ -286,5 +286,5 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.productIconTheme": "icons-carbon"
+  "workbench.productIconTheme": "fluent-icons"
 }
