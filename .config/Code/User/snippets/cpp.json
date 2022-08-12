@@ -1,0 +1,26 @@
+{
+  "Tutorial Start": {
+    "prefix": "tutorial",
+    "description": "Beginning snippet for tutorials",
+    "body": ["#include <iostream>\n\nusing namespace std;\n\nint main() {\n  $1\n\n  cout << endl;\n  return 0;\n}\n"]
+  },
+  "Functional Start": {
+    "prefix": "functional",
+    "description": "Beginning snippet for functional C++ tutorials",
+    "body": ["#include <iostream>\n\nusing namespace std;\n\nauto main() -> int {\n  $1\n  return 0;\n}\n"]
+  },
+  "USACO Training Start": {
+    "prefix": "usaco",
+    "description": "Starter for USACO Training problem solutions",
+    "body": [
+      "/*\nID: saiansh1\nLANG: C++\nTASK: $1\n*/\n#include <bits/stdc++.h>\nusing namespace std;\nint main()\n{\n  ofstream fout(\"$1.out\");\n  ifstream fin(\"$1.in\");\n  $2\n}\n"
+    ]
+  },
+  "Competitive Programming Start": {
+    "prefix": "competitive-programming",
+    "description": "General starter for competitive programming solutions",
+    "body": [
+      "#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main() {\n  ios_base::sync_with_stdio(false);\n  cin.tie(nullptr);\n  $1\n  return 0;\n}\n"
+    ]
+  }
+}
