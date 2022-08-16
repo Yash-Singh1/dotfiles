@@ -168,6 +168,7 @@
     "Udemy",
     "unlocalized",
     "untranspose",
+    "unvote",
     "USABO",
     "USACO",
     "userscript",
@@ -214,7 +215,7 @@
     "yaml": false,
     "plaintext": true,
     "markdown": true,
-    "cpp": true
+    "cpp": false
   },
   "shellcheck.ignorePatterns": {
     "**/*.xonshrc": true,

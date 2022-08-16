@@ -6,7 +6,6 @@ analytic-signal.preview-tiff
 antcap96.xresources
 antfu.auto-npx
 antfu.browse-lite
-antfu.icons-carbon
 antfu.vite
 antfu.where-am-i
 ban.troff
@@ -50,6 +49,7 @@ malmaud.tmux
 me-dutour-mathieu.vscode-github-actions
 mechatroner.rainbow-csv
 mhutchie.git-graph
+miguelsolorio.fluent-icons
 mikestead.dotenv
 Miladfathy.scss-snippet
 mrmlnc.vscode-scss
