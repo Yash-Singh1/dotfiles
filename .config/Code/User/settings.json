@@ -106,6 +106,7 @@
     "jsonlfmt",
     "jsonlines",
     "Kahoot",
+    "Katex",
     "Kattis",
     "keymap",
     "keyname",
@@ -287,5 +288,6 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.stickyScroll.enabled": true
 }

@@ -13,7 +13,7 @@
     "prefix": "usaco",
     "description": "Starter for USACO Training problem solutions",
     "body": [
-      "/*\nID: saiansh1\nLANG: C++\nTASK: $1\n*/\n#include <bits/stdc++.h>\nusing namespace std;\nint main()\n{\n  ofstream fout(\"$1.out\");\n  ifstream fin(\"$1.in\");\n  $2\n}\n"
+      "/*\nID: saiansh1\nLANG: C++\nTASK: $1\n*/\n\n#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main()\n{\n  ofstream fout(\"$1.out\");\n  ifstream fin(\"$1.in\");\n\n  $2\n}\n"
     ]
   },
   "Competitive Programming Start": {
