@@ -195,3 +195,6 @@ fi
 
 # Prevent weird behavior in alacritty
 export WINIT_X11_SCALE_FACTOR="1.0"
+
+# Launch Polybar if it already didn't
+bash ~/.config/polybar/launch.sh --cuts

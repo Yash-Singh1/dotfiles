@@ -36,7 +36,7 @@
     "jupyter-notebook": "left"
   },
   "[svelte]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -52,6 +52,7 @@
     "Adamiecki",
     "alacritty",
     "anchorings",
+    "Appwrite",
     "Arnav",
     "atcoder",
     "Autoimports",
@@ -110,6 +111,7 @@
     "Kattis",
     "keymap",
     "keyname",
+    "keypress",
     "Kumiko",
     "Leetcode",
     "linenumber",
@@ -151,6 +153,7 @@
     "royale",
     "Saiansh",
     "Scriptish",
+    "serdes",
     "shoutout",
     "Signup",
     "slidev",
@@ -158,6 +161,7 @@
     "speedtest",
     "stemist",
     "subselectors",
+    "Sveltekit",
     "svgr",
     "tailwindcss",
     "Tampermonkey",
@@ -216,7 +220,8 @@
     "yaml": false,
     "plaintext": true,
     "markdown": true,
-    "cpp": false
+    "cpp": false,
+    "rust": false
   },
   "shellcheck.ignorePatterns": {
     "**/*.xonshrc": true,
@@ -289,5 +294,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.productIconTheme": "fluent-icons",
-  "editor.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "vscode-pets.position": "explorer",
+  "vscode-pets.theme": "forest"
 }

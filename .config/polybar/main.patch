@@ -1,0 +1,226 @@
+diff --color -ur /home/saiansh/polybar-themes/simple/colorblocks/scripts/rofi/colors.rasi /home/saiansh/.config/polybar/colorblocks/scripts/rofi/colors.rasi
+--- /home/saiansh/polybar-themes/simple/colorblocks/scripts/rofi/colors.rasi	2022-10-09 12:58:25.738468038 -0700
++++ /home/saiansh/.config/polybar/colorblocks/scripts/rofi/colors.rasi	2022-10-09 14:07:26.571629121 -0700
+@@ -2,9 +2,9 @@
+ 
+ * {
+   al:    #00000000;
+-  bg:    #141C21FF;
+-  bg1:   #FFAB91FF;
+-  bg2:   #FF8A65FF;
+-  bg3:   #FF7043FF;
++  bg:    #00000000;
++  bg1:   #00000000;
++  bg2:   #00000000;
++  bg3:   #00000000;
+   fg:    #FFFFFFFF;
+ }
+diff --color -ur /home/saiansh/polybar-themes/simple/cuts/config.ini /home/saiansh/.config/polybar/cuts/config.ini
+--- /home/saiansh/polybar-themes/simple/cuts/config.ini	2022-10-09 12:58:25.738468038 -0700
++++ /home/saiansh/.config/polybar/cuts/config.ini	2022-10-09 13:34:03.101817605 -0700
+@@ -71,7 +71,7 @@
+ offset-y = 0%
+ 
+ ; Background ARGB color (e.g. #f00, #ff992a, #ddff1023)
+-background = ${color.background-alt}
++background = #000000
+ 
+ ; Foreground ARGB color (e.g. #f00, #ff992a, #ddff1023)
+ foreground = ${color.foreground}
+diff --color -ur /home/saiansh/polybar-themes/simple/cuts/launch.sh /home/saiansh/.config/polybar/cuts/launch.sh
+--- /home/saiansh/polybar-themes/simple/cuts/launch.sh	2022-10-09 12:58:25.738468038 -0700
++++ /home/saiansh/.config/polybar/cuts/launch.sh	2022-10-09 13:36:31.322719347 -0700
+@@ -12,4 +12,4 @@
+ 
+ # Launch the bar
+ polybar -q top -c "$DIR"/config.ini &
+-polybar -q bottom -c "$DIR"/config.ini &
++polybar -q mid -c "$DIR"/config.ini &
+diff --color -ur /home/saiansh/polybar-themes/simple/cuts/modules.ini /home/saiansh/.config/polybar/cuts/modules.ini
+--- /home/saiansh/polybar-themes/simple/cuts/modules.ini	2022-10-09 12:58:25.738468038 -0700
++++ /home/saiansh/.config/polybar/cuts/modules.ini	2022-10-09 15:10:45.821167201 -0700
+@@ -759,7 +759,7 @@
+ 
+ [module/wireless-network]
+ type = internal/network
+-interface = wlp3s0
++interface = wlan0
+ 
+ ; Normal Module
+ [module/network]
+@@ -1017,7 +1017,7 @@
+ ;   %title%
+ ; Default: %title%
+ label = "%title%"
+-label-maxlen = 30
++label-maxlen = 100
+ 
+ ; Used instead of label when there is no window title
+ ;;label-empty = Arch Linux
+diff --color -ur /home/saiansh/polybar-themes/simple/cuts/preview.ini /home/saiansh/.config/polybar/cuts/preview.ini
+--- /home/saiansh/polybar-themes/simple/cuts/preview.ini	2022-10-09 12:58:25.738468038 -0700
++++ /home/saiansh/.config/polybar/cuts/preview.ini	2022-10-09 14:26:33.621539931 -0700
+@@ -9,14 +9,14 @@
+ 
+ ;; Global WM Settings
+ 
+-[global/wm]
+-; Adjust the _NET_WM_STRUT_PARTIAL top value
+-; Used for top aligned bars
+-margin-bottom = 0
+-
+-; Adjust the _NET_WM_STRUT_PARTIAL bottom value
+-; Used for bottom aligned bars
+-margin-top = 0
++; [global/wm]
++; ; Adjust the _NET_WM_STRUT_PARTIAL top value
++; ; Used for top aligned bars
++; margin-bottom = 0
++
++; ; Adjust the _NET_WM_STRUT_PARTIAL bottom value
++; ; Used for bottom aligned bars
++; margin-top = 0
+ 
+ ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ 
+@@ -37,14 +37,14 @@
+ ; If unspecified, the application will pick the first one it finds.
+ ; $ polybar -m | cut -d ':' -f 1
+ ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
+-monitor =
++; monitor =
+ 
+ ; Use the specified monitor as a fallback if the main one is not found.
+-monitor-fallback =
++; monitor-fallback =
+ 
+ ; Require the monitor to be in connected state
+ ; XRandR sometimes reports my monitor as being disconnected (when in use)
+-monitor-strict = false
++monitor-strict = true
+ 
+ ; Tell the Window Manager not to configure the window.
+ ; Use this to detach the bar if your WM is locking its size/position.
+@@ -55,7 +55,7 @@
+ 
+ ; Prefer fixed center position for the `modules-center` block
+ ; When false, the center position will be based on the size of the other blocks.
+-fixed-center = true
++; fixed-center = true
+ 
+ ; Dimension defined as pixel value (e.g. 35) or percentage (e.g. 50%),
+ ; the percentage can optionally be extended with a pixel offset like so:
+@@ -63,15 +63,8 @@
+ width = 100%
+ height = 28
+ 
+-; Offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+-; the percentage can optionally be extended with a pixel offset like so:
+-; 50%:-10, this will result in an offset in the x or y direction 
+-; of 50% minus 10 pixels
+-offset-x = 0%
+-offset-y = 0%
+-
+ ; Background ARGB color (e.g. #f00, #ff992a, #ddff1023)
+-background = ${color.background-alt}
++background = #000000
+ 
+ ; Foreground ARGB color (e.g. #f00, #ff992a, #ddff1023)
+ foreground = ${color.foreground}
+@@ -85,9 +78,6 @@
+ ; doesn't get rounded
+ ; Individual top/bottom values can be defined using:
+ ;   radius-{top,bottom}
+-radius-top = 0.0
+-radius-bottom = 0.0
+-
+ ; Under-/overline pixel size and argb color
+ ; Individual values can be defined using:
+ ;   {overline,underline}-size
+@@ -112,7 +102,6 @@
+ ; Number of spaces to add at the beginning/end of the bar
+ ; Individual side values can be defined using:
+ ;   padding-{left,right}
+-padding = 0
+ 
+ ; Number of spaces to add before/after each module
+ ; Individual side values can be defined using:
+@@ -151,25 +140,8 @@
+ [bar/top]
+ inherit = bar/main
+ bottom = true
+-offset-y = 71
+-modules-left = launcher title decor1 decor2 workspaces decor1 decor2 color-switch decor1
+-modules-right = decor4 updates decor3 decor4 temperature battery keyboard decor3 decor4 date sysmenu
+-enable-ipc = true
+-
+-[bar/mid]
+-inherit = bar/main
+-bottom = true
+-offset-y = 38
+-modules-left = menu decor1 decor2 mpd_bar decor1 decor2 term files browser settings decor1 decor2 cpu_bar decor1
+-modules-right = decor4 memory_bar decor3 decor4 alsa backlight decor3 decor4 filesystem_bar decor3 decor4 battery_bar pulseaudio decor3 decor4 powermenu
+-enable-ipc = true
+-
+-[bar/bottom]
+-inherit = bar/main
+-bottom = true
+-offset-y = 5
+-modules-left = mpd decor3 decor4 cpu memory filesystem decor3
+-modules-right = decor2 network decor1 decor2 volume brightness
++modules-left = launcher title cpu memory filesystem
++modules-right = network updates keyboard pulseaudio date powermenu
+ enable-ipc = true
+ 
+ ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+@@ -296,15 +268,15 @@
+ ;throttle-input-for = 30
+ 
+ ; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
+-screenchange-reload = false
++screenchange-reload = true
+ 
+ ; Compositing operators
+ ; @see: https://www.cairographics.org/manual/cairo-cairo-t.html#cairo-operator-t
+-compositing-background = source
+-compositing-foreground = over
+-compositing-overline = over
+-compositing-underline = over
+-compositing-border = over
++; compositing-background = source
++; compositing-foreground = over
++; compositing-overline = over
++; compositing-underline = over
++; compositing-border = over
+ 
+ ; Define fallback values used by all module formats
+ ;format-foreground = 
+@@ -318,6 +290,6 @@
+ 
+ ; Enables pseudo-transparency for the bar
+ ; If set to true the bar can be transparent without a compositor.
+-pseudo-transparency = false
++pseudo-transparency = true
+ 
+ ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+diff --color -ur /home/saiansh/polybar-themes/simple/launch.sh /home/saiansh/.config/polybar/launch.sh
+--- /home/saiansh/polybar-themes/simple/launch.sh	2022-10-09 12:58:25.746468502 -0700
++++ /home/saiansh/.config/polybar/launch.sh	2022-10-09 14:34:54.000831229 -0700
+@@ -12,12 +12,14 @@
+ 
+ 	# Launch the bar
+ 	if [[ "$style" == "hack" || "$style" == "cuts" ]]; then
+-		polybar -q top -c "$dir/$style/config.ini" &
+-		polybar -q bottom -c "$dir/$style/config.ini" &
++		sed -i "s/wlan0/$(ip link | grep wl | head -n 1 | sed 's/^[^:]*: *\([^:]*\).*/\1/')/g" "$dir"/$style/modules.ini
++		polybar -q top -c "$dir"/$style/preview.ini &
++		sleep 2
++		sed -i "s/$(ip link | grep wl | head -n 1 | sed 's/^[^:]*: *\([^:]*\).*/\1/')/wlan0/g" "$dir"/$style/modules.ini
+ 	elif [[ "$style" == "pwidgets" ]]; then
+ 		bash "$dir"/pwidgets/launch.sh --main
+ 	else
+-		polybar -q main -c "$dir/$style/config.ini" &	
++		polybar -q -r main -c "$dir/$style/config.ini" &	
+ 	fi
+ }
+ 

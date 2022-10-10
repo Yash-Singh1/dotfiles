@@ -1,7 +1,6 @@
 13xforever.language-x86-64-assembly
 aaron-bond.better-comments
 Alan.stylus
-analytic-signal.preview-mp4
 analytic-signal.preview-tiff
 antcap96.xresources
 antfu.auto-npx
@@ -28,6 +27,7 @@ eamodio.gitlens
 ecmel.vscode-html-css
 eg2.vscode-npm-script
 esbenp.prettier-vscode
+fivethree.vscode-svelte-snippets
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
 freeCodeCamp.freecodecamp-dark-vscode-theme
@@ -61,6 +61,8 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -89,6 +91,7 @@ redhat.vscode-xml
 redhat.vscode-yaml
 ritwickdey.LiveServer
 robole.markdown-snippets
+rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
 silvenon.mdx
 SimonSiefke.svg-preview
@@ -101,6 +104,7 @@ tht13.html-preview-vscode
 timonwong.shellcheck
 Tobermory.es6-string-html
 tomoki1207.pdf
+tonybaloney.vscode-pets
 twxs.cmake
 VaibhavVishal.web-extension
 vstirbu.vscode-mermaid-preview
