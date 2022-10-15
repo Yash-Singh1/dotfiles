@@ -201,3 +201,7 @@ bash ~/.config/polybar/launch.sh --cuts
 
 # Jetbrains Fleet
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
+
+# Fly.io CLI
+export FLYCTL_INSTALL="/home/saiansh/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
