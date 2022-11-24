@@ -249,7 +249,7 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.colorTheme": "Atom One Dark",
   "where-am-i.colorful": false,
   "where-am-i.textTransfrom": "none",
   "scss.lint.unknownAtRules": "ignore",
@@ -300,5 +300,6 @@
   "svelte.plugin.svelte.note-new-transformation": false,
   "editor.cursorSmoothCaretAnimation": true,
   "vscode-pets.position": "explorer",
-  "vscode-pets.theme": "forest"
+  "vscode-pets.theme": "forest",
+  "smartsemicolon.autoLineChange": false
 }

@@ -205,3 +205,5 @@ export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 # Fly.io CLI
 export FLYCTL_INSTALL="/home/saiansh/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+alias comp="g++ -Wall -std=c++17 -fdiagnostics-color=always"

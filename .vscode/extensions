@@ -1,5 +1,7 @@
 13xforever.language-x86-64-assembly
+2gua.rainbow-brackets
 aaron-bond.better-comments
+akamud.vscode-theme-onedark
 Alan.stylus
 analytic-signal.preview-tiff
 antcap96.xresources
@@ -56,6 +58,7 @@ mrmlnc.vscode-scss
 ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 ms-dotnettools.csharp
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -72,6 +75,8 @@ ms-vscode.cmake-tools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
+ms-vscode.hexeditor
+ms-vscode.remote-explorer
 ms-vscode.remote-repositories
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
@@ -94,6 +99,7 @@ ritwickdey.LiveServer
 robole.markdown-snippets
 rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
+seunghwan.smartsemicolon
 silvenon.mdx
 SimonSiefke.svg-preview
 slevesque.vscode-zipexplorer
@@ -114,7 +120,7 @@ Vue.vscode-typescript-vue-plugin
 wayou.vscode-todo-highlight
 webben.browserslist
 wooodhead.vscode-wrap-console-log-simple
+XadillaX.viml
 xyc.vscode-mdx-preview
 yash-singh.cshell-vscode
 zh9528.file-size
-zhuangtongfa.material-theme

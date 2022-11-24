@@ -74,5 +74,46 @@
     "key": "shift+f12",
     "command": "editor.action.goToTypeDefinition",
     "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled && !viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "cph.submitToCodeForces",
+    "when": "isInDiffEditor && !isInDiffEditor"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "-cph.submitToCodeForces"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+f",
+    "command": "editor.action.focusNextCursor"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+d",
+    "command": "editor.action.focusPreviousCursor"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "explorer.newFile",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "explorer.newFolder",
+    "when": "!editorFocus"
   }
 ]
