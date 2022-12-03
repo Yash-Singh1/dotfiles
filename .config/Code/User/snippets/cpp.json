@@ -13,7 +13,7 @@
     "prefix": "usaco",
     "description": "Starter for USACO Training problem solutions",
     "body": [
-      "/*\nID: saiansh1\nLANG: C++\nTASK: $1\n*/\n\n#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main()\n{\n  ofstream fout(\"$1.out\");\n  ifstream fin(\"$1.in\");\n\n  $0\n}\n"
+      "/*\nID: saiansh1\nLANG: C++\nTASK: $1\n*/\n\n#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main()\n{\n  ios_base::sync_with_stdio(false);\n  cin.tie(nullptr);\n\n  freopen(\"$1.in\", \"r\", stdin);\n  freopen(\"$1.out\", \"w\", stdout);\n\n  $0\n}\n"
     ]
   },
   "Competitive Programming Start": {
@@ -29,5 +29,10 @@
     "body": [
       "#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main() {\n  ios_base::sync_with_stdio(false);\n  cin.tie(nullptr);\n\n  freopen(\"$1.in\", \"r\", stdin);\n  freopen(\"$1.out\", \"w\", stdout);\n\n  $0\n\n  return 0;\n}\n"
     ]
+  },
+  "For Loop": {
+    "prefix": "for",
+    "description": "For loop",
+    "body": ["for (int ${1:i}=$2; $1 < $3; ++$1) {\n  $0\n}"]
   }
 }
