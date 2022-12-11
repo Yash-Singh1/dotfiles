@@ -115,5 +115,9 @@
     "key": "ctrl+shift+enter",
     "command": "explorer.newFolder",
     "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+k j",
+    "command": "workbench.action.terminal.focus"
   }
 ]
