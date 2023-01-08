@@ -39,5 +39,10 @@
     "prefix": "atcoder",
     "description": "Snippets for the Atcoder Library. Supported by Yosupo and Atcoder's judges.",
     "body": ["#include <atcoder/all>"]
+  },
+  "Ordered Statistics Tree": {
+    "prefix": "ordered_statistics_tree",
+    "description": "Imports the G++ PBDS ordered statistics tree",
+    "body": ["#include <ext/pb_ds/assoc_container.hpp>\n#include <ext/pb_ds/tree_policy.hpp>\n\nusing namespace __gnu_pbds;\n\ntypedef tree<pair<int,int>, null_type, less<pair<int,int>>, rb_tree_tag, tree_order_statistics_node_update> ordered_set;\n"]
   }
 }
