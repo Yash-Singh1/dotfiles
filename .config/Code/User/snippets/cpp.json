@@ -44,5 +44,25 @@
     "prefix": "ordered_statistics_tree",
     "description": "Imports the G++ PBDS ordered statistics tree",
     "body": ["#include <ext/pb_ds/assoc_container.hpp>\n#include <ext/pb_ds/tree_policy.hpp>\n\nusing namespace __gnu_pbds;\n\ntypedef tree<pair<int,int>, null_type, less<pair<int,int>>, rb_tree_tag, tree_order_statistics_node_update> ordered_set;\n"]
-  }
+  },
+  "gp_hash_table": {
+    "prefix": "gp_hash_table",
+    "description": "Imports the G++ PBDS hash table",
+    "body": ["#include <ext/pb_ds/assoc_container.hpp>\n\nusing namespace __gnu_pbds;\n"]
+  },
+  "__builtin_popcount": {
+    "prefix": "__builtin_popcount",
+    "description": "Counts the number of set bits in an integer",
+    "body": ["__builtin_popcount$2($1)"]
+  },
+  "__builtin_ctz": {
+    "prefix": "__builtin_ctz",
+    "description": "Counts the number of trailing zeros in an integer's binary representation",
+    "body": ["__builtin_ctz$2($1)"]
+  },
+  "__builtin_clz": {
+    "prefix": "__builtin_clz",
+    "description": "Counts the number of leading zeros in an integer's binary representation",
+    "body": ["__builtin_clz$2($1)"]
+  },
 }
