@@ -325,7 +325,7 @@
   "workbench.productIconTheme": "fluent-icons",
   "editor.stickyScroll.enabled": true,
   "svelte.plugin.svelte.note-new-transformation": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "vscode-pets.position": "explorer",
   "vscode-pets.theme": "forest",
   "smartsemicolon.autoLineChange": false,

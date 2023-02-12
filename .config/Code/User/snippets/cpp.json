@@ -65,4 +65,9 @@
     "description": "Counts the number of leading zeros in an integer's binary representation",
     "body": ["__builtin_clz$2($1)"]
   },
+  "LSOne": {
+    "prefix": "#LSOne",
+    "description": "LSOne is a function that finds the least significant set bit in a bitmask",
+    "body": "#define LSOne(S) ((S) & -(S))\n"
+  }
 }
