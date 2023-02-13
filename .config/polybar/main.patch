@@ -169,7 +169,7 @@ diff --color -ur /home/saiansh/polybar-themes/simple/cuts/preview.ini /home/saia
 -modules-left = mpd decor3 decor4 cpu memory filesystem decor3
 -modules-right = decor2 network decor1 decor2 volume brightness
 +modules-left = launcher title cpu memory filesystem
-+modules-right = network updates keyboard pulseaudio date powermenu
++modules-right = updates keyboard pulseaudio date powermenu
  enable-ipc = true
  
  ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
