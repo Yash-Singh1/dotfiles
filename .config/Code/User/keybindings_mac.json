@@ -1,0 +1,80 @@
+[
+  {
+      "key": "shift+cmd+i",
+      "command": "emojisense.quickEmojitext",
+      "when": "editorTextFocus && !editorTextFocus"
+  },
+  {
+      "key": "shift+cmd+i",
+      "command": "-emojisense.quickEmojitext",
+      "when": "editorTextFocus"
+  },
+  {
+      "key": "shift+cmd+i",
+      "command": "editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "shift+alt+f",
+      "command": "-editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+      "key": "ctrl+cmd+enter",
+      "command": "explorer.newFile"
+  },
+  {
+      "key": "ctrl+shift+cmd+enter",
+      "command": "explorer.newFolder"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "focusSuggestion",
+      "when": "false"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "-focusSuggestion",
+      "when": "suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "toggleSuggestionDetails",
+      "when": "false"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "-toggleSuggestionDetails",
+      "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "workbench.action.terminal.sendSequence",
+      "when": "false"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "-workbench.action.terminal.sendSequence",
+      "when": "terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "workbench.action.terminal.sendSequence",
+      "when": "false"
+  },
+  {
+      "key": "ctrl+space",
+      "command": "-workbench.action.terminal.sendSequence",
+      "when": "config.terminal.integrated.shellIntegration.suggestEnabled && terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+  },
+  {
+      "key": "cmd+r",
+      "command": "editor.action.rename",
+      "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "f2",
+      "command": "-editor.action.rename",
+      "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  }
+]

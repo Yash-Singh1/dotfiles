@@ -62,6 +62,7 @@ These are my dotfiles.
 14. Install the [`Orchis Solid Dark`](https://github.com/vinceliuice/Orchis-theme), [`Bibata Modern Classic`](https://github.com/ful1e5/Bibata_Cursor), and [`Vimix Dark`](https://github.com/vinceliuice/vimix-icon-theme) themes for GTK
 15. Install [Polybar](https://github.com/polybar/polybar/wiki) and [Polybar Themes](https://github.com/adi1090x/polybar-themes) (`simple` mode) and apply the `.config/polybar/main.patch` to the `~/.config/polybar`. You may need to change the `launch.sh` to match your WiFi network, but it works on my system just fine.
 16. Install `rofi`: `sudo apt install rofi`. The polybar theme already configures `rofi` out of the box.
+17. If on MacOS, also use XCode SDK CLang Library paths to place `bits/stdc++.h`
 
 ## ZSH Custom
 

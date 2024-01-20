@@ -207,3 +207,9 @@ export FLYCTL_INSTALL="/home/saiansh/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 alias comp="g++ -Wall -std=c++17 -fdiagnostics-color=always"
+
+# aoc aliases
+alias aois="bun silver.ts in.txt"
+alias aoig="bun gold.ts in.txt"
+alias aots="bun silver.ts test.txt"
+alias aotg="bun gold.ts test.txt"
