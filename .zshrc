@@ -213,3 +213,6 @@ alias aois="bun silver.ts in.txt"
 alias aoig="bun gold.ts in.txt"
 alias aots="bun silver.ts test.txt"
 alias aotg="bun gold.ts test.txt"
+
+# LLVM 16 for Bun Development
+export PATH="$(brew --prefix llvm@16)/bin:$PATH"

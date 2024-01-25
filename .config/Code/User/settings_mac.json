@@ -54,5 +54,7 @@
     "error"
   ],
   "window.zoomLevel": 1,
-  "editor.largeFileOptimizations": false
+  "editor.largeFileOptimizations": false,
+  "zig.path": "~/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zig_install/zig",
+  "zig.zls.path": "~/Downloads/zls"
 }
