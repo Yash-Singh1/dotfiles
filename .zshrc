@@ -70,7 +70,7 @@ alias uncd="cd $OLDPWD"
 alias total="bash ~/better-git-diff/total.sh"
 alias tellme='bash ~/tellme.sh'
 alias pcat='/usr/bin/cat'
-alias cat='ccat'
+# alias cat='ccat'
 
 # some more ls aliases
 alias ll='ls -alF'
