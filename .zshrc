@@ -188,6 +188,7 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 
 if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
   tmux set-option -g @dracula-cols $(tput cols)
+  /bin/sh -c "sleep 2; tmux set-option -g @dracula-cols \$(tput cols)" &!
 fi
 
 # bun completions
