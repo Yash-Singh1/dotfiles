@@ -1,3 +1,8 @@
+# pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -14,7 +19,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DEFAULT_USER='saiansh'
 # prompt_context() {}
 
-alias shopt=/usr/bin/shopt
+# Used previously for bash completion interop or smth
+# alias shopt=/usr/bin/shopt
 
 # Oh My ZSH Auto Updating
 zstyle ':omz:update' mode auto
@@ -36,9 +42,6 @@ export FZF_DEFAULT_OPTS="--cycle --border"
 # Load Oh My ZSH
 source $ZSH/oh-my-zsh.sh
 
-# Bun Completions
-export fpath=($fpath $HOME/.bun)
-
 # Load completion
 autoload -U compinit && compinit
 
@@ -52,13 +55,14 @@ export MANPATH="/usr/local/man:$MANPATH"
 # Set language
 export LANG=en_US.UTF-8
 
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    bash /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    bash /etc/bash_completion
-  fi
-fi
+# Not on zsh
+# if ! shopt -oq posix; then
+#   if [ -f /usr/share/bash-completion/bash_completion ]; then
+#     bash /usr/share/bash-completion/bash_completion
+#   elif [ -f /etc/bash_completion ]; then
+#     bash /etc/bash_completion
+#   fi
+# fi
 
 # History file configuration
 export HISTSIZE=1000
@@ -69,7 +73,7 @@ export SAVEHIST=2000
 alias uncd="cd $OLDPWD"
 alias total="bash ~/better-git-diff/total.sh"
 alias tellme='bash ~/tellme.sh'
-alias pcat='/usr/bin/cat'
+alias pcat='/bin/cat'
 # alias cat='ccat'
 
 # some more ls aliases
@@ -104,11 +108,11 @@ alias spotify='/snap/bin/spotify'
 # Add an alias to set the volume
 alias vol='amixer -D pulse sset Master --quiet'
 
-# Add an alias for opening in Files
-alias open='xdg-open $PWd'
+# Add an alias for opening in Files - Ubuntu
+# alias open='xdg-open $PWD'
 
 # Add an alias to run the development enviorment using nodemon
-alias devr='npm run dev'
+alias devr='pnpm run dev'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -191,14 +195,12 @@ if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
   /bin/sh -c "sleep 2; tmux set-option -g @dracula-cols \$(tput cols)" &!
 fi
 
-# bun completions
-[ -s "/home/saiansh/.bun/_bun" ] && source "/home/saiansh/.bun/_bun"
-
 # Prevent weird behavior in alacritty
 export WINIT_X11_SCALE_FACTOR="1.0"
 
 # Launch Polybar if it already didn't
-bash ~/.config/polybar/launch.sh --cuts
+# Not going to use polybar for mac
+# bash ~/.config/polybar/launch.sh --cuts
 
 # Jetbrains Fleet
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
@@ -208,6 +210,9 @@ export FLYCTL_INSTALL="/home/saiansh/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 alias comp="g++ -Wall -std=c++17 -fdiagnostics-color=always"
+
+# bun completions
+[ -s "/Users/yashsingh/.bun/_bun" ] && source "/Users/yashsingh/.bun/_bun"
 
 # aoc aliases
 alias aois="bun silver.ts in.txt"
