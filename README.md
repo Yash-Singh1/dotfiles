@@ -52,7 +52,7 @@ These are my dotfiles.
    - `.config/starship.toml` (configuration for `starship`)
    - `.config/browsh` (configuration for `browsh`)
    - `.tmux.conf` (configuration for `tmux`)
-   - `.alacritty.yml` (configuration for `alacritty`)
+   - `.alacritty.toml` (configuration for `alacritty`)
 
 9. Install `pnpm` and setup completion: `pnpm install-completion zsh`
 10. Create a `.go` folder for golang

@@ -1,0 +1,64 @@
+[colors.bright]
+black = "#666666"
+blue = "#81a2be"
+cyan = "#54ced6"
+green = "#9ec400"
+magenta = "#b77ee0"
+red = "#ff3334"
+white = "#282a2e"
+yellow = "#f0c674"
+
+[colors.cursor]
+cursor = "#ffffff"
+text = "#1d1f21"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#81a2be"
+cyan = "#70c0ba"
+green = "#b5bd68"
+magenta = "#b294bb"
+red = "#cc6666"
+white = "#373b41"
+yellow = "#e6c547"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#c5c8c6"
+
+[font]
+size = 18.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[mouse]
+hide_when_typing = true
+
+# [mouse.double_click]
+# threshold = 500
+
+[scrolling]
+history = 100000
+
+[shell]
+args = ["/opt/homebrew/bin/tmux"]
+program = "/usr/bin/env"
+
+[window]
+startup_mode = "Maximized"
+title = "Yash's Terminal"
+
+[window.padding]
+y = 5
