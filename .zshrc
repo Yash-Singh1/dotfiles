@@ -190,11 +190,6 @@ alias vscq="vsc &!"
 export DENO_INSTALL="/home/saiansh/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-if [ -z "$(tmux show-option -gqv @dracula-cols)" ]; then
-  tmux set-option -g @dracula-cols $(tput cols)
-  /bin/sh -c "sleep 2; tmux set-option -g @dracula-cols \$(tput cols)" &!
-fi
-
 # Prevent weird behavior in alacritty
 export WINIT_X11_SCALE_FACTOR="1.0"
 
