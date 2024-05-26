@@ -11,6 +11,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -217,3 +218,13 @@ alias aotg="bun gold.ts test.txt"
 
 # LLVM 16 for Bun Development
 export PATH="$(brew --prefix llvm@16)/bin:$PATH"
+
+ao() {
+  osascript -e "tell application \"Arc\"
+  make new tab with properties {URL:\"$1\"}
+  activate
+end tell"
+}
+
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/yashsingh/.cache/lm-studio/bin"
