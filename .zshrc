@@ -3,6 +3,12 @@ export PNPM_HOME="$HOME/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
+# Root directory
+if [[ "$PWD" == "$HOME" ]]; then
+  cd $HOME/p
+fi
+export HOME_MAIN="$HOME/p"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -21,17 +27,17 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # prompt_context() {}
 
 # Used previously for bash completion interop or smth
-# alias shopt=/usr/bin/shopt
+# alias shopt="/usr/bin/shopt"
 
 # Oh My ZSH Auto Updating
-zstyle ':omz:update' mode auto
+zstyle ':omz:update' mode background-alpha
 zstyle ':omz:update' frequency 1 # daily
 
 CASE_SENSITIVE="true"
 DISABLE_MAGIC_FUNCTIONS="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git colorize history safe-paste command-not-found coffee heroku npm yarn nvm node vscode zsh-autosuggestions zsh-syntax-highlighting ubuntu debian heroku zsh-interactive-cd zsh-completions gh yeoman zsh-plugin-speedtest docker docker-compose docker-machine)
+plugins=(git colorize history safe-paste command-not-found coffee heroku npm yarn nvm node vscode zsh-autosuggestions zsh-syntax-highlighting zsh-interactive-cd zsh-completions gh zsh-plugin-speedtest docker docker-compose docker-machine)
 
 # Autosuggestion configuration
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
@@ -56,7 +62,6 @@ export MANPATH="/usr/local/man:$MANPATH"
 # Set language
 export LANG=en_US.UTF-8
 
-# Not on zsh
 # if ! shopt -oq posix; then
 #   if [ -f /usr/share/bash-completion/bash_completion ]; then
 #     bash /usr/share/bash-completion/bash_completion
@@ -92,8 +97,8 @@ alias tron='ssh sshtron.zachlatta.com'
 alias notepad++='notepad-plus-plus'
 
 # Setup Python
-alias python='python3.8'
-alias py='python3.8'
+alias python='python3'
+alias py='python3'
 alias pip='pip3'
 
 pretty_json() {
@@ -164,19 +169,15 @@ PAGER=less
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
 
-# pnpm
-export PNPM_HOME="/home/saiansh/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
 # Bun
-export BUN_INSTALL="/home/saiansh/.bun"
+export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Personal scripts
-export PATH="$HOME/scripts:$PATH"
+export PATH="$HOME/p/scripts:$PATH"
 
 # Remove zsh extention
-for c in $(ls $HOME/scripts | grep .zsh$); do
+for c in $(ls $HOME/p/scripts | grep .zsh$); do
   if ! type ${c%.*} > /dev/null; then
     alias ${c%.*}="$c"
   fi
@@ -188,8 +189,10 @@ export TERM=xterm-256color
 
 alias vscq="vsc &!"
 
-export DENO_INSTALL="/home/saiansh/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+tmux set-environment TMUX_PLUGIN_MANAGER_PATH "$HOME/.tmux/plugins/"
 
 # Prevent weird behavior in alacritty
 export WINIT_X11_SCALE_FACTOR="1.0"
@@ -202,7 +205,7 @@ export WINIT_X11_SCALE_FACTOR="1.0"
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # Fly.io CLI
-export FLYCTL_INSTALL="/home/saiansh/.fly"
+export FLYCTL_INSTALL="$HOME/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 alias comp="g++ -Wall -std=c++17 -fdiagnostics-color=always"
@@ -216,8 +219,7 @@ alias aoig="bun gold.ts in.txt"
 alias aots="bun silver.ts test.txt"
 alias aotg="bun gold.ts test.txt"
 
-# LLVM 16 for Bun Development
-export PATH="$(brew --prefix llvm@16)/bin:$PATH"
+# export PATH="$(brew --prefix llvm@17)/bin:$PATH"
 
 ao() {
   osascript -e "tell application \"Arc\"
