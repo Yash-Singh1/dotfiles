@@ -174,7 +174,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Personal scripts
-export PATH="$HOME/p/scripts:$PATH"
+export PATH="$HOME/p/scripts:$HOME/.local/bin:$PATH"
 
 # Remove zsh extention
 for c in $(ls $HOME/p/scripts | grep .zsh$); do
@@ -230,3 +230,12 @@ end tell"
 
 # Added by LM Studio CLI tool (lms)
 export PATH="$PATH:/Users/yashsingh/.cache/lm-studio/bin"
+
+# manually compdef pnpm
+compdef _pnpm pnpm
+
+packhella() {
+  ZSTD_NBTHREADS=12 gtar -I 'zstd -19' -cvpf $1.tar.zst $1
+}
+
+export MANPAGER='nvim +Man!'
